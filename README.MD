@@ -12,7 +12,7 @@
 - Serve para configurar o Git para que, ao fazer o `git push` de uma nova branch local que ainda não tem um branch remoto correspondente, o Git crie automaticamente o branch remoto e vincule ao local.
 > git config --global --add --bool push.autoSetupRemote true
 
-## 💁 Agora você deve estar se perguntado, por onde começar!
+## 💁 Agora você deve estar se perguntado, por onde começar?!
 - Abaixo segue o passo a passo para subir um projeto.
 
 ## 🚀 Comando para subir um projeto no [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SEUUSERNAME)
@@ -25,20 +25,27 @@ ls
 ```
 cd nome_da_pasta_do_projeto
 ```
- - Caso já esteja na pasta do projeto
+ - Caso já esteja na pasta do projeto:
+
+- E o repositório remoto ainda não estiver inicializado, então: 
+> git init 
+
+- Após...
+
  ```
-git clone URL_do_projeto
 git add .  
 git commit -m "mensagem_escolhida"   
 git branch -M main //Mudar o nome da branch para main  
-git remote add origin URL do projeto  
+git remote add origin URL_do_projeto  
 git push -u origin main 
 ```
 
 ## 🔆 Comandos essenciais do Git
 
+### 💡 Clonar repositório remoto
+> git clone URL_do_projeto
+
 ### 🏁 Inicializar um repositório remoto Git dentro de um repositório local
-- Se ainda não estiver inicializado, então: 
 > git init 
 
 ### 🔙 Voltar caso dê git init em algum repositório errado 
@@ -54,10 +61,10 @@ git push -u origin main
 ### 🔍 Verificar o estado em que se encontram os arquivos do repositório
 > git status
 
-### 🔼 Envia as alterações do repositório local para o repo remoto
+### 🔼 Envia as alterações do repositório local para o repositório remoto
 > git push
 
-### 🆙 Atualizar o repositório local com as alterações do repo remoto
+### 🆙 Atualizar o repositório local com as alterações do repositório remoto
 > git pull
 
 ## ☀️ Fluxo diário / Após realizar mudanças no projeto local
@@ -67,6 +74,8 @@ git status
 git commit -m "mensagem_escolhida"  
 git push
 ```
+- Caso esteja trabalhando colaborativamente (em equipe), sugiro sempre subir alterações remotas antes de realizar alterações locais, então:
+> git pull
 
 # 🌳 Comandos de manipulação de Branches
 
@@ -81,20 +90,20 @@ git push
 > git checkout nome_branch
 
 ### 💡🌳 Criar uma branch e imediatamente mudar para ela
-> git checkout -b nome_branch
+> git checkout -b nome_da_branch
 
 ### ♻️ Mudar o nome da branch atual para `main`
 > git branch -M main
 
 ### 🗑️ Forçar a exclusão de uma branch
-> git branch -D nome_branch
+> git branch -D nome_da_branch
 
 ### 📋 Listar o ultimo commit de cada branch
 > git branch -v
 
 ### 🔀 Fazer merge de uma branch 
 - Unir a branch que se encontra + mais a listada
-> git merge nome_branch
+> git merge nome_da_branch
 
 # 🔗 Trabalhando com Repositórios Remotos
 
@@ -161,10 +170,10 @@ ou
 ### 📁 Criar uma nova pasta
 > mkdir nome_pasta
 
-### 💡Criar um arquivo dentro da pasta criada
+### 💡 Criar um arquivo dentro da pasta criada
 > touch nome_pasta/nome_do_arquivo.extensao
 
-### 💡Criar um arquivo vazio reconhecido pelo Git
+### 💡 Criar um arquivo vazio reconhecido pelo Git
 > touch nome_pasta/.gitkeep
 
 ### 📖 Exibir conteúdo da pasta
@@ -172,11 +181,6 @@ ou
 > cat config
 
 ## 📁 Demais comandos úteis
-
-### 💡 Criar uma cópia local de um repositório remoto
-> git clone URL
-ou  
-> git clone URL nome_que_quero
 
 ### ➕ Adiciona apenas o arquivo mencionado
 > git add nome_do_arquivo
