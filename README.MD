@@ -159,6 +159,42 @@ ou
 ### 🔙 Descartar todas as mudanças feitas e retorna para o commit o qual pertence o HASH_do_commit
 > git reset --hard HEAD_do_commit_para_o_qual_quero_voltar
 
+## 🎯 Mensagens de Commit personalizadas
+- Adote uma convenção clara e semântica para facilitar a leitura e o histórico do seu repositório.
+✅ Seja breve e direto
+✅ Use verbos no infinitivo (add, fix, update...)
+✅ Padronize com sua equipe
+
+### ✨ Feat: para novas funcionalidades
+> git commit -m "feat: add login button"
+
+### 🔧 Chore: para tarefas de manutenção
+> git commit -m "chore: update npm packages"
+
+### 🛠️ Fix: para correção de bugs
+> git commit -m "fix: solve 404 error on homepage"
+
+### 🧹 Delete: para remoção de recursos
+> git commit -m "delete: drop old login"
+
+### 📝 Docs: para documentação
+> git commit -m "docs: edit README.md"
+
+### ♻️ Refactor: para melhorias no código
+> git commit -m "refactor: improve auth"
+
+### 🎨 Style: para mudanças de formatação que não afeta a lógica
+> git commit -m "style: fix code indentation in user service"
+
+### 🧪 Test: criar, atualizar ou corrigir testes
+> git commit -m "test: add unit test for login controller"
+
+### ⚡ Perf: melhorias de performance 
+> git commit -m "perf: improve query performance for dashboard"
+
+### 🤖 Ci: modificar arquivos ou scripts relacionados à CI/CD
+> git commit -m "ci: update Node version in GitHub Actions"
+
 # 📁 Comandos de manipulação de pastas do LINUX (Padrão do Git Bash)
 
 ### 📋 Listar o conteúdo da pasta
