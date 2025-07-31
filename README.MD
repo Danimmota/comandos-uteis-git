@@ -17,8 +17,8 @@
 ## 💁 Agora você deve estar se perguntado, por onde começar?!
 - Abaixo segue o passo a passo para subir um projeto.
 
-## [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SEUUSERNAME) 🚀 Comando para subir um projeto no GitHub
-- Criar repositório remoto no GitHub com nome do projeto  
+## 🚀 Comando para subir um projeto no GitHub
+- Criar repositório remoto no [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SEUUSERNAME) com nome do projeto  
 - Abrir prompt de comando - `CMD ou  GitBash`
 - Necessário estar na pasta do projeto para inicializar o git
 ```
