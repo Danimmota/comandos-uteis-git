@@ -17,6 +17,7 @@
 ## 💁 Agora você deve estar se perguntado, por onde começar?!
 - Abaixo segue o passo a passo para subir um projeto.
 
+<a name="comando-para-subir-um-projeto-no-github"></a>
 ## 🚀 Comando para subir um projeto no [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SEUUSERNAME)
 - Criar repositório remoto no GitHub com nome do projeto  
 - Abrir prompt de comando - `CMD ou  GitBash`
@@ -197,7 +198,8 @@ ou
 ### 🤖 Ci: modificar arquivos ou scripts relacionados à CI/CD
 > git commit -m "ci: update Node version in GitHub Actions"
 
-## 📁 Comandos de manipulação de pastas do LINUX (Padrão do Git Bash)
+## 📁 Comandos de manipulação de pastas do LINUX 
+- (Padrão do Git Bash)
 
 ### 📋 Listar o conteúdo da pasta
 > ls
