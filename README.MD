@@ -1,13 +1,6 @@
 # ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white) Configurações iniciais do Git 🔧  
 
-- [🚀 Comando para subir um projeto no GitHub](#-comando-para-subir-um-projeto-no-gitHub)
-- [🔆 Comandos essenciais do Git](#-comandos-essenciais-do-git)
-- [🌳 Comandos de manipulação de Branches](#-comandos-de-manipulacao-de-branches)
-- [🔗 Trabalhando com Repositórios Remotos](#-trabalhando-com-repositorios-remotos)
-- [💾 Comandos uteis Git commit](#-comandos-uteis-git-commit)
-- [🎯 Mensagens de Commit personalizadas](#-mensagens-de-commit-personalizadas)
-- [📁 Comandos de manipulação de pastas do LINUX](#-comandos-de-manipulacao-de-pastas-do-linux)
-- [📁 Demais comandos úteis](#-demais-comandos-uteis)
+- [🚀 Comando para subir um projeto no GitHub](#-comando-para-subir-um-projeto-no-gitHub) - [🔆 Comandos essenciais do Git](#-comandos-essenciais-do-git) - [🌳 Comandos de manipulação de Branches](#-comandos-de-manipulacao-de-branches) - [🔗 Trabalhando com Repositórios Remotos](#-trabalhando-com-repositorios-remotos) - [💾 Comandos uteis Git commit](#-comandos-uteis-git-commit) - [🎯 Mensagens de Commit personalizadas](#-mensagens-de-commit-personalizadas) - [📁 Comandos de manipulação de pastas do LINUX](#-comandos-de-manipulacao-de-pastas-do-linux) - [📁 Demais comandos úteis](#-demais-comandos-uteis)
 
 > git config --global --add --bool push.autoSetupRemote true
 
