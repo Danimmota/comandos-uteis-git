@@ -1,5 +1,14 @@
 # ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white) Configurações iniciais do Git 🔧  
 
+- [🚀 Comando para subir um projeto no GitHub](#-comando-para-subir-um-projeto-no-gitHub)
+- [🔆 Comandos essenciais do Git](#-comandos-essenciais-do-git)
+- [🌳 Comandos de manipulação de Branches](#-comandos-de-manipulacao-de-branches)
+- [🔗 Trabalhando com Repositórios Remotos](#-trabalhando-com-repositorios-remotos)
+- [💾 Comandos uteis Git commit](#-comandos-uteis-git-commit)
+- [🎯 Mensagens de Commit personalizadas](#-mensagens-de-commit-personalizadas)
+- [📁 Comandos de manipulação de pastas do LINUX](#-comandos-de-manipulacao-de-pastas-do-linux)
+- [📁 Demais comandos úteis](#-demais-comandos-uteis)
+
 > git config --global --add --bool push.autoSetupRemote true
 
 ### 👤 Configurar `user name`
@@ -77,7 +86,7 @@ git push
 - Caso esteja trabalhando colaborativamente (em equipe), sugiro sempre subir alterações remotas antes de realizar alterações locais, então:
 > git pull
 
-# 🌳 Comandos de manipulação de Branches
+## 🌳 Comandos de manipulação de Branches
 
 ### 🌳🆕 Criar uma nova branch a partir da atual
 `Criará uma branch nova, mas não acessará ela imediatamente`
@@ -105,7 +114,7 @@ git push
 - Unir a branch que se encontra + mais a listada
 > git merge nome_da_branch
 
-# 🔗 Trabalhando com Repositórios Remotos
+## 🔗 Trabalhando com Repositórios Remotos
 
 ### 💡Criar uma cópia local de um repositório remoto
 > git clone URL_do_projeto
@@ -122,7 +131,7 @@ git push
 ### 🔄 Atualizar referências do repositório remoto
 > git fetch
 
-# 💾 Comandos uteis Git commit
+## 💾 Comandos uteis Git commit
 
 ### 🔄 Altera a mensagem do último commit
 > git commit --amend -m "nova_mensagem_escolhida"
@@ -195,7 +204,7 @@ ou
 ### 🤖 Ci: modificar arquivos ou scripts relacionados à CI/CD
 > git commit -m "ci: update Node version in GitHub Actions"
 
-# 📁 Comandos de manipulação de pastas do LINUX (Padrão do Git Bash)
+## 📁 Comandos de manipulação de pastas do LINUX (Padrão do Git Bash)
 
 ### 📋 Listar o conteúdo da pasta
 > ls
