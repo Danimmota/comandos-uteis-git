@@ -1,7 +1,11 @@
-# ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white) Configurações iniciais do Git 🔧  
+                                     # Comandos ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)   
+---
 
 - [🚀 Comando para subir um projeto no GitHub](#-comando-para-subir-um-projeto-no-github) - [🔆 Comandos essenciais do Git](#-comandos-essenciais-do-git) - [🌳 Comandos de manipulação de Branches](#-comandos-de-manipulação-de-branches) - [🔗 Trabalhando com Repositórios Remotos](#-trabalhando-com-repositórios-remotos) - [💾 Comandos uteis Git commit](#-comandos-uteis-git-commit) - [🎯 Mensagens de Commit personalizadas](#-mensagens-de-commit-personalizadas) - [📁 Comandos de manipulação de pastas do LINUX](#-comandos-de-manipulação-de-pastas-do-linux) - [📁 Demais comandos uteis](#-demais-comandos-uteis)
+---
 
+## 🔧 Configurações iniciais do Git
+---
 > git config --global --add --bool push.autoSetupRemote true
 
 ### 👤 Configurar `user name`
@@ -18,6 +22,7 @@
 - Abaixo segue o passo a passo para subir um projeto.
 
 ## 🚀 Comando para subir um projeto no GitHub
+---
 - Criar repositório remoto no [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SEUUSERNAME) com nome do projeto  
 - Abrir prompt de comando - `CMD ou  GitBash`
 - Necessário estar na pasta do projeto para inicializar o git
@@ -43,6 +48,7 @@ git push -u origin main
 ```
 
 ## 🔆 Comandos essenciais do Git
+---
 
 ### 💡 Clonar repositório remoto
 > git clone URL_do_projeto
@@ -80,6 +86,7 @@ git push
 > git pull
 
 ## 🌳 Comandos de manipulação de Branches
+---
 
 ### 🌳🆕 Criar uma nova branch a partir da atual
 `Criará uma branch nova, mas não acessará ela imediatamente`
@@ -108,6 +115,7 @@ git push
 > git merge nome_da_branch
 
 ## 🔗 Trabalhando com Repositórios Remotos
+---
 
 ### 💡Criar uma cópia local de um repositório remoto
 > git clone URL_do_projeto
@@ -125,6 +133,7 @@ git push
 > git fetch
 
 ## 💾 Comandos uteis Git commit
+---
 
 ### 🔄 Altera a mensagem do último commit
 > git commit --amend -m "nova_mensagem_escolhida"
@@ -162,6 +171,7 @@ ou
 > git reset --hard HEAD_do_commit_para_o_qual_quero_voltar
 
 ## 🎯 Mensagens de Commit personalizadas
+---
 - Adote uma convenção clara e semântica para facilitar a leitura e o histórico do seu repositório.
 ✅ Seja breve e direto
 ✅ Use verbos no infinitivo (add, fix, update...)
@@ -198,6 +208,8 @@ ou
 > git commit -m "ci: update Node version in GitHub Actions"
 
 ## 📁 Comandos de manipulação de pastas do LINUX 
+---
+
 ```
 Padrão do Git Bash
 ```
@@ -222,6 +234,7 @@ Padrão do Git Bash
 > cat config
 
 ## 📁 Demais comandos uteis
+---
 
 ### ➕ Adiciona apenas o arquivo mencionado
 > git add nome_do_arquivo
