@@ -1,5 +1,4 @@
 <h1 align="center"> Comandos Git </h1>   
----
 
 - [🚀 Comando para subir um projeto no GitHub](#-comando-para-subir-um-projeto-no-github) - [🔆 Comandos essenciais do Git](#-comandos-essenciais-do-git) - [🌳 Comandos de manipulação de Branches](#-comandos-de-manipulação-de-branches) - [🔗 Trabalhando com Repositórios Remotos](#-trabalhando-com-repositórios-remotos) - [💾 Comandos uteis Git commit](#-comandos-uteis-git-commit) - [🎯 Mensagens de Commit personalizadas](#-mensagens-de-commit-personalizadas) - [📁 Comandos de manipulação de pastas do LINUX](#-comandos-de-manipulação-de-pastas-do-linux) - [📁 Demais comandos uteis](#-demais-comandos-uteis)
 ---
