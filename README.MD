@@ -190,16 +190,19 @@ ou
 
 | Tipo          | Descrição                                               | Exemplo de Commit                                    |
 |---------------|---------------------------------------------------------|------------------------------------------------------|
-| ✨ Feat       | Novas funcionalidades                                   | `git commit -m "feat: add login button"`             |
-| 🔧 Chore      | Tarefas de manutenção                                   | `git commit -m "chore: update npm packages"`         |
-| 🛠️ Fix        | Correção de bugs                                        | `git commit -m "fix: solve 404 error on homepage"`   |
-| 🧹 Delete     | Remoção de recursos                                     | `git commit -m "delete: drop old login"`             |
-| 📝 Docs       | Alterações na documentação                              | `git commit -m "docs: edit README.md"`               |
-| ♻️ Refactor   | Melhorias no código sem mudar comportamento             | `git commit -m "refactor: improve auth"`             |
-| 🎨 Style      | Mudanças de formatação sem afetar lógica                 | `git commit -m "style: fix code indentation in user service"` |
-| 🧪 Test       | Criação, atualização ou correção de testes              | `git commit -m "test: add unit test for login controller"` |
-| ⚡ Perf       | Melhorias de performance                                | `git commit -m "perf: improve query performance for dashboard"` |
-| 🤖 Ci         | Alterações em arquivos/scripts relacionados à CI/CD     | `git commit -m "ci: update Node version in GitHub Actions"` |
+| ✨ feat       | Adicionar uma nova funcionalidade                       | `git commit -m "feat(auth): add JWT support"`        |
+| 🛠️ fix        | Correção de bugs                                        | `git commit -m "fix(api): handle null response"`     |
+| 🧹 delete     | Remoção de recursos                                     | `git commit -m "delete: drop old login"`             |
+| 📝 docs       | Alterações/atualizações na documentação                 | `git commit -m "docs(readme): update usage section"` |
+| ♻️ refactor   | Melhorias no código sem mudar comportamento             | `git commit -m "refactor(core): cleanup time"`       |
+| 🗑️ revert     | Reverter uma alteração anterior                         | `git commit -m "revert: feat(api): add user endpoint"`|
+| 🎨 style      | Mudanças de estilo ou formatação sem afetar lógica      | `git commit -m "style: fix code indentation in user service"` |
+| 🧪 test       | Criação, atualização ou correção de testes              | `git commit -m "test(api): add unit test for login controller"` |
+| 🚀 perf       | Melhorias de performance / desempenho                   | `git commit -m "perf(db): reduce query time"`        |
+| 🔧 chore      | Tarefas de manutenção que não afetam a lógica           | `git commit -m "chore: update npm packages"`         |
+| 🛠️ build      | Alterar dependências ou configurações de build          | `git commit -m "build(deps): bump axios to 1.7.0"`   |
+| 🔧 ops        | Modificar infraestrutura ou processos de deploy         | `"git commit -m "ops(docker): add production compose"`|
+| ⚙️ Ci         | Alterações em arquivos/scripts relacionados à CI/CD     | `git commit -m "ci(actions): update Node version"`   |
 
 
 ## 📁 Comandos de manipulação de pastas do LINUX 
