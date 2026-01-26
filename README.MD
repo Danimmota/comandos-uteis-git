@@ -105,11 +105,24 @@ git push
 ### Listar as branchs locais existentes / Listar ramificações
 > git branch
 
+### Listar as branchs remotas existentes / Listar ramificações
+> git branch -r
+
+### Listar todas as branchs (locais + remotas) existentes / Listar ramificações
+> git branch -a
+
 ### Acessar/mudar para uma determinada branch existente
 > git checkout nome_branch
 
-### Criar uma branch e imediatamente mudar para ela
+### Atualizar referências remotas
+> git fetch --all
+
+### Criar uma nova branch e imediatamente mudar para ela
 > git checkout -b nome_da_branch
+> git switch -c <new-branch-name>
+
+###Criar branch local a partir de uma remota
+> git checkout -b <nome-local> origin/<nome-remoto>
 
 ### Mudar o nome da branch atual para `main`
 > git branch -M main
