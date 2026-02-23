@@ -119,6 +119,7 @@ git push
 
 ### Criar uma nova branch e imediatamente mudar para ela
 > git checkout -b nome_da_branch
+ou
 > git switch -c <new-branch-name>
 
 ###Criar branch local a partir de uma remota
@@ -219,8 +220,10 @@ ou
 
 ## Tarefa não finalizada
 > WIP = Work In Progress
-> Ex: feat(login): start login validation logic (WIP)
-> Ex para commit local: WIP: login state handling
+Exemplos:
+> feat(login): start login validation logic (WIP)
+ou para commit local
+> WIP: login state handling
 
 ## 📁 Comandos de manipulação de pastas do LINUX 
 
