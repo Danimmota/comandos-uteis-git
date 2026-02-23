@@ -217,6 +217,10 @@ ou
 | 🔧 ops        | Modificar infraestrutura ou processos de deploy         | `"git commit -m "ops(docker): add production compose"`|
 | ⚙️ Ci         | Alterações em arquivos/scripts relacionados à CI/CD     | `git commit -m "ci(actions): update Node version"`   |
 
+## Tarefa não finalizada
+> WIP = Work In Progress
+> Ex: feat(login): start login validation logic (WIP)
+> Ex para commit local: WIP: login state handling
 
 ## 📁 Comandos de manipulação de pastas do LINUX 
 
