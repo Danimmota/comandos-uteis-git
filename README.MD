@@ -194,6 +194,21 @@ ou
 ### Descartar todas as mudanças feitas e retorna para o commit o qual pertence o HASH_do_commit
 > git reset --hard HEAD_do_commit_para_o_qual_quero_voltar
 
+### ### Verificar o hash(codigo identificador) dos commits realizados na branch:
+> git log <branch-de-origem> --oneline
+
+### Comando para trazer as alterações de um determinado commit para a branch atual, fazendo o commit automatico:
+> git cherry-pick <hash-do-commit>
+
+### Comando para trazer as alterações de um determinado commit para a branch atual, fazendo o commit automatico:
+> git cherry-pick -n <hash-do-commit>
+
+### Continuar após resolver um conflito de código:
+> git cherry-pick --continue
+
+### Cancelar a operação inteira e voltar ao estado anterior:
+> git cherry-pick --abort
+
 ## 🎯 Mensagens de Commit personalizadas
 
 - **Adote uma convenção clara e semântica para facilitar a leitura e o histórico do seu repositório.**
